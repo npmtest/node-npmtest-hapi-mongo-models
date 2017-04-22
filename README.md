@@ -35,17 +35,35 @@
 ```json
 
 {
-    "name": "hapi-mongo-models",
-    "version": "6.0.0",
+    "author": {
+        "name": "Reza Akhavan"
+    },
+    "bugs": {
+        "url": "https://github.com/jedireza/hapi-mongo-models/issues"
+    },
+    "dependencies": {
+        "hoek": "4.x.x"
+    },
     "description": "A hapi plugin for mongo-models",
-    "main": "index.js",
-    "scripts": {
-        "test": "lab -c -L"
+    "devDependencies": {
+        "code": "3.x.x",
+        "hapi": "15.x.x",
+        "joi": "9.x.x",
+        "lab": "11.x.x",
+        "mongo-models": "1.x.x",
+        "mongodb": "2.x.x",
+        "proxyquire": "1.x.x"
     },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:jedireza/hapi-mongo-models.git"
+    "directories": {},
+    "dist": {
+        "shasum": "56d5cc011d939cab729aced30c9cc7b71f265656",
+        "tarball": "https://registry.npmjs.org/hapi-mongo-models/-/hapi-mongo-models-6.0.0.tgz"
     },
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "gitHead": "7d8a4837ca8ecd7fedb96ab9f0d4595fcc34199b",
+    "homepage": "https://github.com/jedireza/hapi-mongo-models",
     "keywords": [
         "hapi",
         "hapijs",
@@ -55,31 +73,28 @@
         "models",
         "odm"
     ],
-    "engines": {
-        "node": ">=4.0.0"
-    },
-    "author": "Reza Akhavan <reza@akhavan.me>",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/jedireza/hapi-mongo-models/issues"
-    },
-    "homepage": "https://github.com/jedireza/hapi-mongo-models",
-    "devDependencies": {
-        "code": "3.x.x",
-        "hapi": "15.x.x",
-        "joi": "9.x.x",
-        "lab": "11.x.x",
-        "mongodb": "2.x.x",
-        "mongo-models": "1.x.x",
-        "proxyquire": "1.x.x"
-    },
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "jedireza"
+        }
+    ],
+    "name": "hapi-mongo-models",
+    "optionalDependencies": {},
     "peerDependencies": {
         "mongodb": "2.x.x",
         "mongo-models": "1.x.x"
     },
-    "dependencies": {
-        "hoek": "4.x.x"
-    }
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/jedireza/hapi-mongo-models.git"
+    },
+    "scripts": {
+        "test": "lab -c -L"
+    },
+    "version": "6.0.0",
+    "bin": {}
 }
 ```
 
